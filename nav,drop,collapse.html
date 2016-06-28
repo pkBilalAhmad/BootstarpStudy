@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BS navbar, Dropdown, Collapse, Panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./bts/css/bootstrap.min.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./bts/js/bootstrap.min.js"></script>
+    <style>
+        .li-pad li a{
+            padding: 10px;
+        }
+        .li-pad li{
+            border-bottom: 1px solid #383838;
+        }
+        .li-pad{
+            padding: 0px;
+        }
+        @media only screen and(min-width: 768){
+    .li-pad{
+        border: none;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-default" id="men">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="" class="navbar-brand">Navbar, Dropdown, Collapse</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="">HTML</a></li>
+                <li><a href="">HTML</a></li>
+                <li><a href="">HTML</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="dropdown">
+        <button type="button" class="dropdown-toggle" data-toggle="dropdown" style="padding: 8px;">
+            Menu list
+        </button>
+        <ul class="dropdown-menu li-pad" style=" padding: 0px">
+                <li><a href="">New</a></li>
+                <li><a href="">New</a></li>
+                <li><a href="">New</a></li>
+            </ul>
+
+    </div>
+    </div>
+    <br>
+    <div class="container">
+        <button class="" type="button" data-toggle="collapse" data-target="#menu">
+            new Menu
+        </button>
+        <div class="collapse" id="menu" style="border: 1px solid gray; padding-left: 15px; border-radius: 5px; margin-top: 5px">
+            data toggle brand <br>
+            brand new car for you
+            </div>
+    </div>
+    <br>
+    <div class="navbar navbar-inverse navbar-fixed-botto">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="btn btn-info navbar-toggle" data-toggle="collapse" data-target="#nav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="" class="navbar-brand">Bottom navbar</a>
+            </div>
+            <div class="collapse navbar-collapse text-center" id="nav">
+                <ul class="nav navbar-nav li-pad">
+                    <li><a href="">HTML</a></li>
+                    <li><a href="">HTML</a></li>
+                    <li class="dropdown "><a href="" class="dropdown-toggle" data-toggle="dropdown">HTML <span class="caret"></span></a>
+                    <ul class="dropdown-menu li-pad dropdown-menu-right">
+                        <li><a href="">News</a></li>
+                        <li><a href="">Tutorials</a></li>
+                        <li><a href="">Portal</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="">HTML</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#para1" data-toggle="collapse" data-parent="#accordion">Show para1</a>
+                    </h4>
+                </div>
+                     <div class="collapse panel-collapse" id="para1">
+                         <div class="panel-body">
+                             kdljfal fkjfkl <br>dfj asdfjas lkj <br>kj;lsdjf ;la
+                         </div>
+                     </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#para2" data-toggle="collapse" data-parent="#accordion">Show para1</a>
+                    </h4>
+                </div>
+                     <div class="collapse panel-collapse" id="para2">
+                         <div class="panel-body">
+                             kdljfal fkjfkl <br>dfj asdfjas lkj <br>kj;lsdjf ;la
+                         </div>
+                     </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#para3" data-toggle="collapse" data-parent="#accordion">Show para1</a>
+                    </h4>
+                </div>
+                     <div class="collapse panel-collapse" id="para3">
+                         <div class="panel-body">
+                             kdljfal fkjfkl <br>dfj asdfjas lkj <br>kj;lsdjf ;la
+                         </div>
+                     </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <button class="btn btn-info">HTML</button>
+        <button class="btn btn-primary btn-block">HTML</button>
+        <button class="btn btn-success">HTML</button>
+    </div>
+    <br>
+    <div class="container">
+    <div class="btn-group btn-group-lg">
+        <button class="btn btn-default btn-primary" type="button">home</button>
+        <button class="btn btn-default btn-success" type="button">home</button>
+        <button class="btn btn-default btn-info" type="button">home</button>
+
+    </div>
+    </div><br>
+    <div class="container">
+        <div class="btn-group-justified btn-group-lg">
+            <a href="" class="btn btn-info">Home</a>
+            <a href="" class="btn active btn-primary">Home</a>
+            <a href="" class="btn btn-info">Home</a>
+        </div>
+
+    </div>
+    <br>
+    <div class="btn-group btn-group-justified">
+        <div class="btn-group">
+            <button type="button" class="btn btn-info">Home</button>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-info">Home</button>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-info">Home</button>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-info">Home</button>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="alert alert-danger">
+            <a href="#" class="close" data-dismiss="alert">&times</a>
+            This Div is info for students to alert for new subject and new chapter
+        </div>
+    </div>
+</body>
+</html>
