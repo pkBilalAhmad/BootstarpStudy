@@ -1,5 +1,44 @@
-@media only screen and(min-width: 768){
-    .li-pad{
-        border: none;
-    }
+ .container-fluid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+        .bg-1{ 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+.bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+.bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+        .skyblue{
+            background-color: skyblue;
+        }
+        .skyblue2{
+            background-color: #1abc9c;
+        }
+        .navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #ffffff;
+}
+.fnt-s-1{
+    font-size: 20px;
+}
+
+.bg-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+.l-gray{
+    background-color: lightgray;
+}
+.glry{
+    width: 100%;
+    height: auto;
 }

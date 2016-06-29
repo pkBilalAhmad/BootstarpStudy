@@ -1,0 +1,13 @@
+.bdr-r{
+    border-radius: 5px;
+}
+.bdr-1{
+    border: 1px solid gray;
+}
+.bdr-3{
+    border: 3px solid gray;
+
+}
+bdr-r-50{
+    border-radius: 50%;
+}

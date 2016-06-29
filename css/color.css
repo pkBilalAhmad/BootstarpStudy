@@ -1,0 +1,58 @@
+.green{
+    background-color: green;
+}
+.lightgreen{
+    background-color: #4CAF50;
+}
+.black{
+    background-color: black;
+}
+.dimblack{
+    background-color: #535353;
+}
+.blue{
+    background-color: blue;
+}
+.lightblue{
+    background-color: #4584EF;
+}
+.skyblue{
+    background-color: skyblue;
+}
+.red{
+    background-color: red;
+}
+.darkred{
+    background-color: #7f2a2a;
+}
+.lightred{
+    background-color: #f99393;
+}
+.gray{
+    background-color: gray;
+}
+.lightgray{
+    background-color: lightgray;
+}
+.white{
+    background-color: #fff;
+}
+
+.t-white{
+    color: white;
+}
+.t-black{
+    color: black;
+}
+.t-blue{
+    color: blue;
+}
+.t-red{
+    color: red;
+}
+.t-darkgreen{
+    color: darkgreen;
+}
+.t-gray{
+    color: gray;
+}
