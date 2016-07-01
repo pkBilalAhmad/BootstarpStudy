@@ -1,6 +1,22 @@
 .bdr-r{
     border-radius: 5px;
 }
+.bdr-r-10{
+    border-radius: 10px;
+}
+.bdr-r-15{
+    border-radius: 15px;
+}
+.bdr-r-50{
+    border-radius: 50px;
+}
+.bdr-r-25{
+    border-radius: 25px;
+}
+.bdr-circle{
+    border-radius: 50%;
+}
+
 .bdr-1{
     border: 1px solid gray;
 }

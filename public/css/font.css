@@ -1,0 +1,12 @@
+@font-face {
+    font-family: jnn;
+    src: url("../fonts/jnn.ttf");
+}
+
+h1{
+    font-family: Sofia-Regular;
+}
+.urdu{
+    font-family: jnn;
+    direction: rtl;
+}

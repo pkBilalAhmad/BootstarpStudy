@@ -10,6 +10,10 @@
 .dimblack{
     background-color: #535353;
 }
+.orange{
+    background-color: #f4511e;
+}
+
 .blue{
     background-color: blue;
 }
@@ -33,6 +37,9 @@
 }
 .lightgray{
     background-color: lightgray;
+}
+.dimgray{
+    background-color: #e2e2e2;
 }
 .white{
     background-color: #fff;
